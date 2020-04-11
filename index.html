@@ -30,3 +30,7 @@
 $(document).ready(function() {
 var $demo = $(".card-menu");
   var numOfSections = $(".card-menu-section").length;
+$(document).on("click", ".card-menu-menu-btn", function() {
+    $demo.addClass("menu-active");
+  });
+  

@@ -43,4 +43,9 @@ $(document).on("click", ".card-menu-menu-btn", function() {
 $(".card-menu-section.active").removeClass("active");
 $(".card-menu-section.inactive").removeClass("inactive");
 $section.addClass("active");
-$demo.removeClass("menu-active");
+$demo.refor (var i = index + 1; i <= numOfSections; i++) {
+      $(".card-menu-section[data-section="+ i +"]").addClass("inactive");
+    }moveClass("menu-active");
+for (var i = index + 1; i <= numOfSections; i++) {
+      $(".card-menu-section[data-section="+ i +"]").addClass("inactive");
+    }

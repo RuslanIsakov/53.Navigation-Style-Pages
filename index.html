@@ -5,53 +5,59 @@
  <link rel="stylesheet" href="style.css">
 <title>Navigation Style Pages</title>
 </head>
+
 <body>
- <div class="card-menu">
- <div class="card-menu-close-menu"></div>
+<div class="card-menu">
+  <div class="card-menu-close-menu"></div>
   <div class="card-menu-section card-menu-section-1" data-section="1">
-<div class="card-menu-menu-btn"></div>
+    <div class="card-menu-menu-btn"></div>
     <h2 class="card-menu-section-heading">Home</h2>
   </div>
-<div class="card-menu-section card-menu-section-2 active" data-section="2">
+  <div class="card-menu-section card-menu-section-2 active" data-section="2">
     <div class="card-menu-menu-btn"></div>
     <h2 class="card-menu-section-heading">Navigation Style Pages </h2>
-</div>
+     
+  </div>
   <div class="card-menu-section card-menu-section-3 inactive" data-section="3">
     <div class="card-menu-menu-btn"></div>
- <h2 class="card-menu-section-heading">Contacts</h2>
+    <h2 class="card-menu-section-heading">Contacts</h2>
   </div>
-<div class="card-menu-section card-menu-section-4 inactive" data-section="4">
+  <div class="card-menu-section card-menu-section-4 inactive" data-section="4">
     <div class="card-menu-menu-btn"></div>
     <h2 class="card-menu-section-heading">About</h2>
-</div>
+  </div>
 </div>
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
 <script>
 $(document).ready(function() {
-var $demo = $(".card-menu");
+  
+  var $demo = $(".card-menu");
   var numOfSections = $(".card-menu-section").length;
-$(document).on("click", ".card-menu-menu-btn", function() {
+  
+  $(document).on("click", ".card-menu-menu-btn", function() {
     $demo.addClass("menu-active");
   });
   
- $(document).on("click", ".card-menu-close-menu", function() {
+  $(document).on("click", ".card-menu-close-menu", function() {
     $demo.removeClass("menu-active");
   });
- $(document).on("click", ".card-menu.menu-active .card-menu-section", function() {
+  
+  $(document).on("click", ".card-menu.menu-active .card-menu-section", function() {
     var $section = $(this);
     var index = +$section.data("section");
-$(".card-menu-section.active").removeClass("active");
-$(".card-menu-section.inactive").removeClass("inactive");
-$section.addClass("active");
-$demo.refor (var i = index + 1; i <= numOfSections; i++) {
-      $(".card-menu-section[data-section="+ i +"]").addClass("inactive");
-    }moveClass("menu-active");
-for (var i = index + 1; i <= numOfSections; i++) {
+    
+    $(".card-menu-section.active").removeClass("active");
+    $(".card-menu-section.inactive").removeClass("inactive");
+    $section.addClass("active");
+    $demo.removeClass("menu-active");
+    
+    for (var i = index + 1; i <= numOfSections; i++) {
       $(".card-menu-section[data-section="+ i +"]").addClass("inactive");
     }
-});
+  });
   
 });
 </script>
+ 
 </body>
 </html>

@@ -6,3 +6,6 @@ body { background: #1C182F;
        font-family: 'Roboto Condensed', sans-serif;
     
     }
+.card-menu {
+  overflow: hidden;
+  position: absolute;

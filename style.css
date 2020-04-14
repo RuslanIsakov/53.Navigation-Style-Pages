@@ -9,3 +9,5 @@ body { background: #1C182F;
 .card-menu {
   overflow: hidden;
   position: absolute;
+  width: 100%;
+  height: 100%;

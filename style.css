@@ -17,5 +17,8 @@ body { background: #1C182F;
 }
 .card-menu-close-menu {
   position: absolute;
-left: 22px;
+  left: 22px;
   top: 22px;
+  width: 29px;
+  cursor: pointer;
+}

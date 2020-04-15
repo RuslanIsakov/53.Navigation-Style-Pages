@@ -25,3 +25,5 @@ body { background: #1C182F;
 card-menu-close-menu:before, .card-menu-close-menu:after {
   content: "";
   position: absolute;
+ left: 0;
+  top: 8px;

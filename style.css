@@ -22,3 +22,6 @@ body { background: #1C182F;
   width: 29px;
   cursor: pointer;
 }
+card-menu-close-menu:before, .card-menu-close-menu:after {
+  content: "";
+  position: absolute;

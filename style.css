@@ -35,3 +35,7 @@ card-menu-close-menu:before, .card-menu-close-menu:after {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+.card-menu-close-menu:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

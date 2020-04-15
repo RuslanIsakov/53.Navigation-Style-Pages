@@ -27,3 +27,5 @@ card-menu-close-menu:before, .card-menu-close-menu:after {
   position: absolute;
  left: 0;
   top: 8px;
+ width: 100%;
+  height: 4px;

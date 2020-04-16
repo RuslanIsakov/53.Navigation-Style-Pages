@@ -42,3 +42,5 @@ card-menu-close-menu:before, .card-menu-close-menu:after {
 .card-menu-section {
   z-index: 1;
   position: absolute;
+left: 0;
+  top: 0;

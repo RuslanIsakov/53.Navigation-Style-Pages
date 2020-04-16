@@ -50,3 +50,5 @@ padding: 25px 0 0 65px;
   border-radius: inherit;
 -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
+transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;

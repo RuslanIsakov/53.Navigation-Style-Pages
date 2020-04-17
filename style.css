@@ -77,3 +77,7 @@ card-menu-close-menu:before, .card-menu-close-menu:after {
   -webkit-transform: translate3d(60px, 180px, 0);
   transform: translate3d(60px, 180px, 0);
 }
+.card-menu-section-3.inactive {
+  -webkit-transform: translate3d(100%, 180px, 0);
+  transform: translate3d(100%, 180px, 0);
+}

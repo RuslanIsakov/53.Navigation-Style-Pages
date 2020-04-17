@@ -64,3 +64,7 @@ card-menu-close-menu:before, .card-menu-close-menu:after {
   -webkit-transform: translate3d(100%, 60px, 0);
   transform: translate3d(100%, 60px, 0);
 }
+.card-menu.menu-active .card-menu-section-2 {
+  -webkit-transform: translate3d(40px, 120px, 0);
+  transform: translate3d(40px, 120px, 0);
+}

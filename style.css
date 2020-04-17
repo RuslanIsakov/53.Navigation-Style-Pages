@@ -56,3 +56,7 @@ card-menu-close-menu:before, .card-menu-close-menu:after {
   transform: translate3d(0, 0, 0);
   will-change: transform;
 }
+.card-menu.menu-active .card-menu-section-1 {
+  -webkit-transform: translate3d(20px, 60px, 0);
+  transform: translate3d(20px, 60px, 0);
+}

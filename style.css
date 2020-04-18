@@ -92,3 +92,4 @@ card-menu-close-menu:before, .card-menu-close-menu:after {
 .card-menu.menu-active .card-menu-section { cursor: pointer; }
 .card-menu-section-1 { background-image: url(images/1.jpg); background-size: cover;}
 .card-menu-section-1 .card-menu-section-heading, .card-menu-section-1 .card-menu-menu-btn:before { color: #E57B60; }
+.card-menu-section-2 { background-image: url(images/2.jpg); background-size: cover;}

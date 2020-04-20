@@ -102,3 +102,5 @@ card-menu-section-heading {
   text-transform: uppercase;
  font-size: 12px;
   -webkit-transition: -webkit-transform 0.4s;
+transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;

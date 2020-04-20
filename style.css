@@ -104,3 +104,5 @@ card-menu-section-heading {
   -webkit-transition: -webkit-transform 0.4s;
 transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
+ transition: transform 0.4s, -webkit-transform 0.4s;
+}

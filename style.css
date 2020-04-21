@@ -115,3 +115,5 @@ transition: -webkit-transform 0.4s;
   left: 20px;
 top: 20px;
   width: 28px;
+ height: 22px;
+  -webkit-transition: opacity 0.2s 0.2s;

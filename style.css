@@ -106,3 +106,4 @@ transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
  transition: transform 0.4s, -webkit-transform 0.4s;
 }
+.card-menu.menu-active .card-menu-section-heading {

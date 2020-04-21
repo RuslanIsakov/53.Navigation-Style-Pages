@@ -110,3 +110,6 @@ transition: -webkit-transform 0.4s;
  -webkit-transform: translateX(-45px);
   transform: translateX(-45px);
 }
+.card-menu-menu-btn {
+  position: absolute;
+  left: 20px;

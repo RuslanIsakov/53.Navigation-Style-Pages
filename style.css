@@ -120,3 +120,5 @@ top: 20px;
  transition: opacity 0.2s 0.2s;
   cursor: pointer;
 }
+.card-menu.menu-active .card-menu-menu-btn {
+  pointer-events: none;

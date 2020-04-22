@@ -122,3 +122,5 @@ top: 20px;
 }
 .card-menu.menu-active .card-menu-menu-btn {
   pointer-events: none;
+opacity: 0;
+  -webkit-transition: opacity 0.2s;
